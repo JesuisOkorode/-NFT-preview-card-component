@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+--Soft-blue: hsl(215, 51%, 70%);
+--Cyan: hsl(178, 100%, 50%);
+--main-BG: hsl(217, 54%, 11%) ;
+--card-BG: hsl(216, 50%, 16%);
+--line: hsl(215, 32%, 27%);
+--White: hsl(0, 0%, 100%);
+
+}
+body {
+ font-family: "outfit", sans-serif;
+ font-size: 18px; 
+ background-color: var(--main-BG); 
+ display: flex;
+ justify-content: center; 
+ align-items: center;
+ width: 100%;
+ min-height: 100vh;
+ padding: 100px 0;
+}
+main {
+ background-color:var(--card-BG); 
+ border-radius: 15px; 
+ padding: 20px; 
+ width: 300px;
+ 
+}
+.image-section img {
+    border-radius: 15px;
+    width: 100%;
+
+    
+}
+h3{
+    color: var(--White);
+    margin: 20px 0 20px 0;
+}
+p {
+    color: var(--Soft-blue);
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.sub-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.flex-box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.eth-number {
+    color: var(--Cyan);
+    text-align: center;
+    padding-left: 5px;
+    font-size: 12px;
+    padding-bottom: 3px;
+    font-weight: bold;
+}
+.flex-box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.days-left {
+    color: var(--Soft-blue);
+    text-align: center;
+    font-size: 13px;
+    padding-left: 5px;
+    padding-bottom: 4px;;
+
+}
+.line {
+    background-color: var(--line);
+    height: 1px;
+    
+    
+}
+.flex-box3 {
+    display: flex;
+    justify-content:;
+    align-items: center;
+}
+.last-div img {
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid var(--White);
+
+}
+.create {
+    font-size: 15px;
+    padding-left: 15px;
+    padding-top: 17px;
+}
+.strong {
+    color: var(--White);
+    padding-left: 3px;
+}
+.image-section img:hover{
+    
+}
+
+.h3-text:hover {
+    color: var(--Cyan);
+}
+.strong:hover {
+    color: var(--Cyan);
+}
+
+@media screen and (max-width: 375px) {
+   
+  
+
+}
